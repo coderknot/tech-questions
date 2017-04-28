@@ -1,8 +1,8 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    {{#link-to 'question' question.id}}  <h4>{{question.title}} by <strong><em>{{question.author}}</em></strong></h4>{{/link-to}}
+    <h4><strong>{{question.title}}</strong> by <em>{{question.author}}</em></h4>
   </div>
   <div class="panel-body">
-    <p>{{post.content}}</p>
+    <p>{{question.content}}</p>
   </div>
 </div>
