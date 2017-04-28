@@ -1,0 +1,14 @@
+{
+	"questions": [
+    {
+			"author": "Chris",
+			"title": "Wondering what is up with all these IPAs",
+			"content": "Do they help you code?"
+		},
+		{
+			"author": "Jason",
+			"title": "Getting started programming, help!",
+			"content": "What would be the easiest way to get started with learning programming?"
+		}
+	]
+}
