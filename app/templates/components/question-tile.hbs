@@ -1,1 +1,8 @@
-{{yield}}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    {{#link-to 'question' question.id}}  <h4>{{question.title}} by <strong><em>{{question.author}}</em></strong></h4>{{/link-to}}
+  </div>
+  <div class="panel-body">
+    <p>{{post.content}}</p>
+  </div>
+</div>
