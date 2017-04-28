@@ -3,6 +3,52 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+## Planning
+
+* Configuration / Dependencies
+  * NPM - npm install
+  * Bootstrap - ember install ember-bootstrap
+  * Emberfire - ember install emberfire (?)
+* Specs
+* Integration
+  * Models
+    * Question
+    * Answer
+  * Templates
+    * Application
+    * Index
+    * About
+    * Contact
+    * New Question
+    * Question
+  * Components
+    * Index
+      * Question Tile
+    * New Question
+      * Question New
+    * Question
+      * Question Detail
+      * Question Update
+      * Question Delete
+      * New Answer
+      * Answer Tile
+      * Answer Update
+      * Answer Delete
+  * Routes
+    * Index
+    * About
+    * Contact
+    * New Question
+    * Question
+      * Path: ‘/post/:post_id’
+  * UX/UI
+    * Utilize bootstrap to quickly divide and style application content
+    * Custom styling
+  * Polish
+    * Review and refactor as necessary
+    * Remove unused code, logs, and comments
+    * Finalize README
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
