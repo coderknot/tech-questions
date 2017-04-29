@@ -1,1 +1,18 @@
-{{yield}}
+{{#if updateQuestionForm}}
+  <h1>Update blog</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="title">Title: </label>
+        {{input class="form-control" value=question.title id="title"}}
+      </div>
+      <div class="form-group">
+        <label for="content">Content: </label>
+        {{input class="form-control" value=question.content id="content"}}
+      </div>
+      <button class="btn btn-warning"{{action 'updateQuestion' question}}>Save Changes</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn btn-primary" {{action 'updateQuestionForm'}}>Update Question</button>
+{{/if}}
