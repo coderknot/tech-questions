@@ -4,7 +4,9 @@
 <hr>
 {{answer-new question=model saveAnswer="saveAnswer"}}
 <hr>
-<h3>Answers:</h3>
-{{#each model.answers as |answer|}}
-  {{answer-tile answer=answer}}
-{{/each}}
+{{#if model.answers}}
+  <h3>Answers:</h3>
+  {{#each model.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+{{/if}}
