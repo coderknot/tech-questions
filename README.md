@@ -5,7 +5,7 @@
 #### By _**John Carr**_
 
 ## Description
-Tech Questions and Answers is a website where users may ask tech-based questions and receive answers.
+Tech Questions and Answers provides a forum for tech-related questions and answers. Users may ask questions and receive answers. Users may also provide answers to others!
 
 ## Setup / Installation Requirements
 
@@ -45,8 +45,8 @@ You will need the following things properly installed on your computer.
     * Templates
       * ~~Application~~
       * ~~Index~~
-      * About
-      * Contact
+      * ~~About~~
+      * ~~Contact~~
       * ~~New Question~~
       * ~~Question~~
     * Components
@@ -64,8 +64,8 @@ You will need the following things properly installed on your computer.
         * ~~Answer Delete~~
     * Routes
       * ~~Index~~
-      * About
-      * Contact
+      * ~~About~~
+      * ~~Contact~~
       * ~~New Question~~
       * ~~Question~~
         * ~~Path: ‘/post/:post_id’~~
